@@ -28,7 +28,7 @@ export default function App() {
       <div className="App">
         <img
           id="banner"
-          src="src/assets/banner.jpg"
+          src="src/assets/bannerMain.jpg"
           alt="banner"
         />
         <SearchLocal setLocation={setLocation} />
