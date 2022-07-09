@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  background-color: #3e4252;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+#input {
+  border: none;
+  width: 550px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #c0c3c9;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #c0c3c9;
+}
+
+/* /// */
+
+.locationInfo_name {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #1c1d20;
+}
+
+.locationInfo_name h2 {
+  margin: 20px 0 0 0;
+  font-size: 35px;
+  color: white;
+  padding: 20px;
+}
+
+.locationInfo_info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-content: center;
+}
+
+.locationInfo_info span {
+  padding: 0 40px 30px 40px;
+  color: white;
+  font-size: 20px;
+}
+
+/* // */
+
+.residentInfo {
+  height: 250px;
+  width: 500px;
+  background-color: #80828a;
+  font-family: sans-serif;
+  display: flex;
+}
+
+#img-resident {
+  height: 100%;
+  width: auto;
+}
+
+#circle-green {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+}
+
+#circle-red {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+#circle-black {
+  width: 30px;
+  height: 10px;
+  background-color: rgb(49, 48, 48);
+  margin-right: 8px;
+}
+
+/* // */
+
+#list {
+  font-family: sans-serif;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#residentsList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+#banner {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.search {
+  margin-top: 2.5em;
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+.card {
+  text-align: left;
+  padding-left: 20px;
+  line-height: 6px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  line-height: 20px;
+  font-size: 1rem;
+}
+
+h2 {
+  line-height: 20px;
+  font-size: 1.3rem;
+}
