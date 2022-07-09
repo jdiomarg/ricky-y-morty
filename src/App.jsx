@@ -3,21 +3,13 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import LocationInfo from "./components/LocationInfo";
 import ResidentsList from "./components/ResidentsList";
+import SearchLocal from "./components/Search";
 
 
 export default function App() {
   const ran = () => Math.floor(Math.random() * 126) + 1;
   const [universe, setUniverse] = useState([]);
   const [location, setLocation] = useState(ran());
-
-
-  const handleClick = ({ setLocation }) => {
-    const input = document.getElementById("input").value;
-    if (input === '') return;
-    setLocation(input);
-    document.getElementById("input").value = "";
-  }
-
 
   useEffect(() => {
     axios
@@ -39,10 +31,7 @@ export default function App() {
           src="src/assets/banner.jpg"
           alt="banner"
         />
-        <form className="search" style={{ display: "flex", flexwrap: "wrap" }} onSubmit={handleClick}>
-          <input id="input" placeholder="Type a location id" />
-          <button id="button">Submit</button>
-        </form>
+        <SearchLocal setLocation={setLocation} />
 
         <LocationInfo
           name={universe.name}

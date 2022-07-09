@@ -49,7 +49,8 @@ function ResidentInfo({ character }) {
                 {handleState()}
                 <p>Origen:</p>
                 <h3>{person.origin?.name}</h3>
-                <p>Episodes Where Appear: <b>{person.episode?.length}</b></p>
+                <p>Where Appear: </p>
+                <h3><b>Episode {person.episode?.length}</b></h3>
             </div>
         </div>
     );
