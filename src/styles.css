@@ -95,7 +95,13 @@ body {
 
 .circle {
   display: flex;
+  padding: 10px 10px;
+  background-color: #1c1d20;
+  border-radius: 20px;
   align-items: center;
+  border: 1px solid #3e4252;
+  height: 10px;
+  width: 190px;
 }
 
 #circle-red {
@@ -172,7 +178,7 @@ h1 {
 
 h3 {
   line-height: 20px;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 h2 {
